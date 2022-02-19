@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }
+
+__d("CometSinglePageMenuRootQuery_facebookRelayOperation",[],(function(a,b,c,d,e,f){e.exports="4778347472252395"}),null);
+__d("CometSinglePageMenuRootQuery$Parameters",["CometSinglePageMenuRootQuery_facebookRelayOperation"],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:b("CometSinglePageMenuRootQuery_facebookRelayOperation"),metadata:{},name:"CometSinglePageMenuRootQuery",operationKind:"query",text:null}};e.exports=a}),null);
+__d("CometSinglePageMenuRoot.entrypoint",["CometSinglePageMenuRootQuery$Parameters","JSResourceForInteraction","buildCometSinglePageRoute.entrypoint"],(function(a,b,c,d,e,f,g){"use strict";a=c("buildCometSinglePageRoute.entrypoint")(c("JSResourceForInteraction")("CometSinglePageMenuRoot.react").__setRef("CometSinglePageMenuRoot.entrypoint"),function(a){a=a.routeProps.pageID;return{queries:{singlePageMenuQueryReference:{parameters:b("CometSinglePageMenuRootQuery$Parameters"),variables:{pageID:a}}}}});g["default"]=a}),98);
